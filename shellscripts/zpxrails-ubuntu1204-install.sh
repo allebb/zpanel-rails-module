@@ -52,4 +52,22 @@ gem install passenger
 passenger-install-apache2-module
 
 # Now we need to do a few config changes (this will be done by the zppy package!)
-
+#
+# LoadModule passenger_module /usr/local/lib/ruby/gems/1.9.1/gems/passenger-3.0.19/ext/apache2/mod_passenger.so
+# PassengerRoot /usr/local/lib/ruby/gems/1.9.1/gems/passenger-3.0.19
+# PassengerRuby /usr/local/bin/ruby
+#
+#
+# <VirtualHost *:80>
+#      ServerName www.yourhost.com
+#      # !!! Be sure to point DocumentRoot to 'public'!
+#      DocumentRoot /somewhere/public
+#      <Directory /somewhere/public>
+#         # This relaxes Apache security settings.
+#         AllowOverride all
+#         # MultiViews must be turned off.
+#         Options -MultiViews
+#      </Directory>
+#   </VirtualHost>
+#
+#
