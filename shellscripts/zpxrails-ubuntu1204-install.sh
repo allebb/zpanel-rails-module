@@ -48,3 +48,8 @@ gem install bundler
 # Install passenger...
 gem install passenger
 
+# Run new Passenger connection...
+passenger-install-apache2-module
+
+# Now we need to do a few config changes (this will be done by the zppy package!)
+
