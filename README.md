@@ -1,4 +1,7 @@
-zpanel-rails-module
-===================
+Rails (Ruby On Rails) module for ZPanelX
+========================================
 
-A Rails module for ZPanelX (Development repo, will possibly move this into core eventually!)
+This is my development repository for Ruby On Rails support in ZPanelX.
+
+This module will more than likely be added to the core at a later date but for
+now I wanted a separate development repository just while I'm working on things!
