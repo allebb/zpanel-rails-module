@@ -26,7 +26,7 @@ apt-get install libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev
 cd /usr/local/src
 wget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.gz
 tar -z -xf ruby-1.9.3-p392.tar.gz
-cd ruby-1.9.3-392
+cd ruby-1.9.3-p392
 ./configure --enable-shared
 make && sudo make install
 
