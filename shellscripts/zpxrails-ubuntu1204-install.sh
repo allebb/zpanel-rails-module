@@ -2,14 +2,14 @@
 
 #################################################################
 # Rails Module for ZPanelX Automated Installer for Ubuntu 12.04 #
-# Created by: Bobby Allen (bobbyallen.uk@gmail.com)             #
+# Created by: Bobby Allen (ballen@bobbyallen.me)                #
 #################################################################
 
 clear
 
 echo -n "################################################################\n"
 echo -n "# Rails Module for ZPanelX Installer                           #\n"
-echo -n "# Created by: Bobby Allen (bobbyallen.uk@gmail.com)            #\n"
+echo -n "# Created by: Bobby Allen (ballen@bobbyallen.me)               #\n"
 echo -n "################################################################\n"
 
 if [ "$(id -u)" != "0" ]; then
